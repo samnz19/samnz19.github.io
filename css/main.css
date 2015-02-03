@@ -2,6 +2,9 @@
 GENERAL
 ********************************************/
 
+#panorama img {
+	min-width: 100%;
+}
 body {
 	font-family: 'Ramabhadra' , sans-serif;
 }
@@ -171,15 +174,15 @@ PAGE:INFORMATION;
 }
 
 .contact-info li.phone a {
-	background-image: url('../img/phone.png');
+	background-image: url('img/phone.png');
 }
 
 .contact-info li.mail a {
-	background-image: url('../img/mail.png');
+	background-image: url('img/mail.png');
 }
 
 .contact-info li.twitter a {
-	background-image: url('../img/twitter.png');
+	background-image: url('img/twitter.png');
 }
 
 
