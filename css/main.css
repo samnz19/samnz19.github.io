@@ -268,25 +268,21 @@ textarea {
 }
 
 html {
-        height: 100%;
-     }
+    height: 100%;
+}
 
 body {
         height: 100%;
         margin: 0;
         padding: 0;
-    background: grey;
-     }
+    	background: black;
+}
+
 #mapDiv {
     height: 95%;
     width: 100%;
     position: relative;
 }
-
-
-
-
-
 
 
 #mapDiv {
