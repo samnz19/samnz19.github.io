@@ -245,3 +245,15 @@ nav a.selected, nav a:hover {
 	color: black;
 }
 
+/* Google Map Page */
+
+
+#mapDiv {
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
