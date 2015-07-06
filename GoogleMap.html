@@ -4,20 +4,21 @@
     <title>My Maps</title>
     <meta name="Viewport" content="initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr97Zqav1cRG3QW955tWBenLNAFartc48
-"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr97Zqav1cRG3QW955tWBenLNAFartc48"></script>
     <script type="text/javascript" src="JavaScript/Ajax.js"></script>
-
     <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
-
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="JavaScript/Ajax.js"></script>
 </head>
 <body>
-        <button id="btnTerrain">Terrain</button>
-        <button id="btnHybrid">Hybrid</button>
-        <button id="btnRoadmap">Roadmap</button>
-        <button id="btnSatellite">Satellite</button>
+        <button class="terrainbuttons" id="btnTerrain">Terrain</button>
+        <button class="terrainbuttons">Hybrid</button>
+        <button class="terrainbuttons">Roadmap</button>
+        
+        <div>
+            <button id="btnSatellite">Satellite</button>
+            <h3 id="mapheading">The ISS (International Space Station) live location map</h3>
+            <p>Location marked every five seconds.</p>
+        </div>
 <div id="mapDiv">
    
 

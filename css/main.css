@@ -279,18 +279,24 @@ body {
 }
 
 #mapDiv {
-    height: 95%;
+
+    height: 85%;
     width: 100%;
     position: relative;
 }
 
-
-#mapDiv {
-    height: 95%;
-    width: 100%;
-    position: relative;
+#mapheading {
+	font-family: Verdana;
+	font-weight: bold;
+	color: whitesmoke;
 }
+ 
+ .terrainbuttons {
+ 
+	float:left;
+	margin:0px;
 
+ }
 
 
 
