@@ -209,22 +209,21 @@ PAGE:INDEX;
 }
 
 #left {
-	width: 65%;
+	width: 60%;
 	float: left;
 }
 
 #right {
-		width: 15%;	
+		width: 18%;	
 		background-color: #547799;		
 		border-bottom-left-radius: 15px;
 		padding-top: 1%;
 		margin-top: -9px;
-
 }
 
 #right2 {
-		width: 15%;				
-	background-color: #547799;		
+		width: 18%;				
+		background-color: #547799;		
 		border-bottom-right-radius: 15px;
 		padding-top: 1%;
 		margin-top: -9px;
