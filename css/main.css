@@ -17,7 +17,8 @@ body {
 
 ul li a {
 	text-decoration: none;
-	color: #999190;
+	color: black;
+	font-family: 'Fira Sans';
 }
 
 img {
@@ -25,18 +26,20 @@ img {
 }
 
 h3 {
-	margin: 0 0 1em 0;
-	text-align: center;
+	margin: 0 0 1em 5%;
+	text-align: left;
 }
 
 p {
-	color: #999190;
+	color: #2C3E50;
 	text-align: left;
-	margin: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Fira Sans';
 }
 
 ul {
-	color: white;
+	color: #2C3E50;
 	text-align: center;
 	list-style: none;
 }
@@ -44,12 +47,6 @@ ul {
 HEADING
 ********************************************/
 
-header {
-	float: left;
-	margin: 0 0 30px 0;
-	padding: 5px 0 0 0;
-	width: 100%;
-}
 
 #logo {
 	text-align: center;
@@ -57,24 +54,24 @@ header {
 }
 
 h1 {
-	font-family: 'Lobster', sans-serif;
+	font-family: 'Days One', sans-serif;
 	margin: 15px 0;
-	font-size: 5em;
+	font-size: 3.5em;
 	font-weight: normal;
 	line-height: 0.8em;
 	text-decoration: none;
 }
 
 h2 {
-	font-size: 2em;
+
 	margin: -5px 0 0;
 	font-weight: normal;
-	font-family: 'Architects Daughter';
+	font-family: 'Fira Sans';
 }
 
 h3 {
-	font-family: 'Architects Daughter';
-	color: #993B3A;
+	font-family: 'Fira Sans';
+	color: black;
 }
 
 
@@ -85,7 +82,7 @@ NAVIGATION
 nav {
 	text-align: center;
 	padding: 10px 0;
-	margin: 20px 0 0;
+
 }
 
 nav ul {
@@ -119,6 +116,11 @@ footer {
 PAGE:PICTURES PAGE;
 ********************************************/
 
+#wrapper h3 {
+	padding-top: 20px;
+	text-align: center;
+}
+
 #gallery {
 	margin: 0;
 	padding: 0;
@@ -129,7 +131,7 @@ PAGE:PICTURES PAGE;
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #993B3A;
+	background-color: #547799;
 	color: red;
 }
 
@@ -192,8 +194,53 @@ PAGE:INFORMATION;
 PAGE:INDEX;
 ********************************************/
 
-.byronindexpic {
+#panopic {
 	width: 100%;
+	margin: 0 auto;
+	position: center;
+}
+
+#headings h1, h2 {
+	position: absolute;
+}
+
+#headings h1{
+	margin-top: 30px;
+}
+
+#left {
+	width: 65%;
+	float: left;
+}
+
+#right {
+		width: 15%;	
+		background-color: #547799;		
+		border-bottom-left-radius: 15px;
+		padding-top: 1%;
+		margin-top: -9px;
+
+}
+
+#right2 {
+		width: 15%;				
+	background-color: #547799;		
+		border-bottom-right-radius: 15px;
+		padding-top: 1%;
+		margin-top: -9px;
+}
+
+#content div {
+	display: inline-block;
+}
+
+#skills li {
+	text-align: left;
+	color: black;
+}
+
+#about {
+font-size: 2em;
 }
 
 /********************************************
@@ -203,7 +250,7 @@ COLORS
 /* site body */
 
 body {
-	background-color: black;
+	background-color: #ECF0F1;
 	color: blue;
 }
 
@@ -217,7 +264,7 @@ header {
 /* nav background on mobile */
 
 nav {
-	background: #993B3A;
+	background: #3498DB;
 }
 
 /* logo text */
@@ -229,20 +276,14 @@ h1, h2 {
 /* links */
 
 a {
-	color: #401714;
+	color: black;
 	text-decoration: none;
-}
-
-/* nav link */
-
-nav a, nav a:visited {
-	color: #fff;
 }
 
 /* selected nav links */
 
 nav a.selected, nav a:hover {
-	color: black;
+	color: white;
 }
 
 /* Google Map Page */
@@ -274,15 +315,15 @@ html {
 body {
         height: 100%;
         margin: 0;
-        padding: 0;
-    	background: black;
+        padding: 0;  
 }
 
 #mapDiv {
 
     height: 85%;
-    width: 100%;
+    width: 90%;
     position: relative;
+    margin: 0 auto;
 }
 
 #mapheading {
@@ -292,11 +333,14 @@ body {
 }
  
  .terrainbuttons {
-
- 
 	float:left;
 	margin:0px;
 
+ }
+
+ footer p{
+ 	color: black;
+ 	text-align: center;
  }
 
 
