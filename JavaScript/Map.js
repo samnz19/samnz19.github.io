@@ -38,12 +38,6 @@ function initialize() {
             position: google.maps.ControlPosition.BOTTOM_LEFT
         },
         panControl: true,
-        mapTypeControl: true,
-        mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP,
-                google.maps.MapTypeId.HYBRID],
-            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-        },
         scaleControl: true,
         streetViewControl: true,
         rotateControl: true,

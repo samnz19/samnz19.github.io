@@ -2,9 +2,6 @@
 GENERAL
 ********************************************/
 
-#panorama img {
-	min-width: 100%;
-}
 body {
 	font-family: 'Ramabhadra' , sans-serif;
 }
@@ -147,6 +144,9 @@ PAGE:PICTURES PAGE;
 /********************************************
 PAGE:INFORMATION;
 ********************************************/
+#contactlinks p {
+	text-align: center;
+}
 
 .map1 {
 	display: inline-block;
@@ -198,15 +198,14 @@ PAGE:INDEX;
 	width: 100%;
 	margin: 0 auto;
 	position: center;
+	opacity: 0.5;
 }
 
 
-#headings h1, h2 {
-	position: absolute;
-}
-
-#headings h1{
-	margin-top: 30px;
+#headings{
+	background-color: #272928;
+	margin-top: -10px;
+	color: #ECF0F1;
 }
 
 #left {
@@ -239,9 +238,6 @@ PAGE:INDEX;
 	color: black;
 }
 
-#about {
-font-size: 2em;
-}
 
 /********************************************
 COLORS
@@ -320,20 +316,21 @@ body {
 
 #mapDiv {
 
-    height: 85%;
+    height: 80%;
     width: 90%;
     position: relative;
     margin: 0 auto;
 }
 
 #mapheading {
-	font-family: Verdana;
+	font-family: 'Fira Sans';
 	font-weight: bold;
-	color: whitesmoke;
+	color: black;
+	font-size: 2em;
 }
  
- .terrainbuttons {
-	float:left;
+ #mapbuttons {
+	float: right;
 	margin:0px;
 
  }
