@@ -1,26 +1,26 @@
 var map;
 
-// $(document).ready(function () {
-//     console.log("rgae");
-//     var ajax_call = function () {
-//         $.ajax({
-//             type: "GET",
-//             //I like how you have created and consumed an API in one project.
-//             url: "http://localhost:60469/home/geo",
-//             success: function (data) {
-//                 console.log(data.Latitude, data.Longitude);
-//                 addMarker(data.Latitude, data.Longitude);
-//             },
-//             error: function () {
-//                 console.log("Error");
-//             }
-//         });
-//     };
+$(document).ready(function () {
+    console.log("rgae");
+    var ajax_call = function () {
+        $.ajax({
+            type: "GET",
+            //I like how you have created and consumed an API in one project.
+            url: "http://api.open-notify.org/iss-now.json",
+            success: function (data) {
+                console.log(data.Latitude, data.Longitude);
+                addMarker(data.Latitude, data.Longitude);
+            },
+            error: function () {
+                console.log("Error");
+            }
+        });
+    };
 
-//     //Loooooove this
-//     setInterval(ajax_call, 5000);
+    //Loooooove this
+    setInterval(ajax_call, 5000);
     
-// });
+});
 
 function initialize() {
 
