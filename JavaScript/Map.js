@@ -1,22 +1,26 @@
 var map;
 
 $(document).ready(function () {
-    console.log("rgae");
     var ajax_call = function () {
-        $.ajax({
-            type: "GET",
-            //I like how you have created and consumed an API in one project.
-            url: "http://api.open-notify.org/iss-now.json",
-            success: function (data) {
-                console.log(data.Latitude, data.Longitude);
-                addMarker(data.Latitude, data.Longitude);
-            },
-            error: function () {
-                console.log("Error");
-            }
-        });
-    };
-
+        // $.ajax({
+        //     type: "GET",
+        //     //crossDomain: true,
+        //     //I like how you have created and consumed an API in one project.
+        //     url: "http://api.open-notify.org/iss-now.json",
+        //     success: function (data) {
+        //         console.log(data.Latitude, data.Longitude);
+        //         addMarker(data.Latitude, data.Longitude);
+        //     },
+        //     error: function () {
+        //         console.log("Error");
+        //     }
+        // });
+     $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+        var lat = data['iss_position']['latitude'];
+        var lon = data['iss_position']['longitude'];
+        addMarker(lat, lon);
+    });
+ }
     //Loooooove this
     setInterval(ajax_call, 5000);
     
@@ -26,7 +30,7 @@ function initialize() {
 
     var mapOptions = {
         center: new google.maps.LatLng(0, 0),
-        zoom: 3,
+        zoom: 2,
         disableDefaultUI: true,
         zoomControl: true,
         zoomControlOptions: {
@@ -74,11 +78,11 @@ google.maps.event.addDomListener(window, "load", initialize);
 function addMarker(lat, long) {
     var myLatlng = new google.maps.LatLng(lat, long);
 
-    var image = '/Img/redsquare.png';
+    var image = 'Img/delete-small.gif';
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        icon: image
+       icon: image
 });
     marker.setMap(map);
 }
