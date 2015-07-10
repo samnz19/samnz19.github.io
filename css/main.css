@@ -110,7 +110,7 @@ footer {
 }
 
 /********************************************
-PAGE:PICTURES PAGE;
+PICTURES PAGE;
 ********************************************/
 
 #wrapper h3 {
@@ -142,7 +142,7 @@ PAGE:PICTURES PAGE;
 
 
 /********************************************
-PAGE:INFORMATION;
+INFORMATION;
 ********************************************/
 #contactlinks p {
 	text-align: center;
@@ -191,7 +191,7 @@ PAGE:INFORMATION;
 
 
 /********************************************
-PAGE:INDEX;
+INDEX;
 ********************************************/
 
 #panopic {
@@ -209,24 +209,24 @@ PAGE:INDEX;
 }
 
 #left {
-	width: 60%;
+	width: 50%;
 	float: left;
 }
 
 #right {
-		width: 18%;	
-		background-color: #547799;		
-		border-bottom-left-radius: 15px;
-		padding-top: 1%;
-		margin-top: -9px;
+	width: 22%;	
+	background-color: #547799;		
+	border-bottom-left-radius: 15px;
+	padding-top: 1%;
+	margin-top: -9px;
 }
 
 #right2 {
-		width: 18%;				
-		background-color: #547799;		
-		border-bottom-right-radius: 15px;
-		padding-top: 1%;
-		margin-top: -9px;
+	width: 22%;				
+	background-color: #547799;		
+	border-bottom-right-radius: 15px;
+	padding-top: 1%;
+	margin-top: -9px;
 }
 
 #content div {
@@ -237,6 +237,60 @@ PAGE:INDEX;
 	text-align: left;
 	color: black;
 }
+
+/***************************************
+GOOGLE MAP PAGE;
+***************************************/
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+#mapDiv {
+    height: 80%;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#mapheading {
+	font-family: 'Fira Sans';
+	font-weight: bold;
+	color: black;
+	font-size: 2em;
+}
+ 
+ #mapbuttons {
+	float: right;
+	margin:0px;
+ }
+
+ footer p{
+ 	color: black;
+ 	text-align: center;
+ }
 
 
 /********************************************
@@ -250,11 +304,10 @@ body {
 	color: blue;
 }
 
-/* dark brown header */
+/*  header */
 
 header {
 	background: #401714;
-	border-color: #E5DA4B;
 }
 
 /* nav background on mobile */
@@ -282,60 +335,3 @@ nav a.selected, nav a:hover {
 	color: white;
 }
 
-/* Google Map Page */
-
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-        height: 100%;
-        margin: 0;
-        padding: 0;  
-}
-
-#mapDiv {
-
-    height: 80%;
-    width: 90%;
-    position: relative;
-    margin: 0 auto;
-}
-
-#mapheading {
-	font-family: 'Fira Sans';
-	font-weight: bold;
-	color: black;
-	font-size: 2em;
-}
- 
- #mapbuttons {
-	float: right;
-	margin:0px;
-
- }
-
- footer p{
- 	color: black;
- 	text-align: center;
- }
