@@ -15,7 +15,7 @@ body {
 ul li a {
 	text-decoration: none;
 	color: black;
-	font-family: 'Fira Sans';
+	font-family: Verdana;
 }
 
 img {
@@ -78,8 +78,7 @@ NAVIGATION
 
 nav {
 	text-align: center;
-	padding: 10px 0;
-
+	padding: 5px 5px 5px 5px;
 }
 
 nav ul {
@@ -93,7 +92,6 @@ nav li {
 }
 
 nav a {
-	font-weight: 800;
 	padding: 15px 10px;
 }
 
@@ -269,10 +267,11 @@ body {
 }
 
 #mapDiv {
-    height: 80%;
+    height: 85%;
     width: 90%;
     position: relative;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 #mapheading {
@@ -280,6 +279,7 @@ body {
 	font-weight: bold;
 	color: black;
 	font-size: 2em;
+	margin-bottom: -8px;
 }
  
  #mapbuttons {
