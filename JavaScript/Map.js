@@ -47,7 +47,6 @@ function initialize() {
         }
 
     };
-
     map = new google.maps.Map(document.getElementById("mapDiv"), mapOptions);
     addButtons(map);
  
@@ -76,7 +75,7 @@ function addMarker(lat, long) {
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-       icon: image
+        icon: image
 });
     marker.setMap(map);
 }
