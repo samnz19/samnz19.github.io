@@ -20,3 +20,13 @@ body {
 	font-size: 17px;
 	font-family: verdana;
 }
+
+.list-inline li img {
+	height: 80px;
+	width: 80px;
+}
+
+.service-item img {
+	height: 200px;
+	width: 200 px;
+}
