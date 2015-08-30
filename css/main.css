@@ -30,3 +30,14 @@ body {
 	height: 200px;
 	width: 200 px;
 }
+
+#aboutheading h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#abouttext {
+	width: 50%;
+	margin: 0 auto;
+	font-weight: bold;
+}
